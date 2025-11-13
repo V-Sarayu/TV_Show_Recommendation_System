@@ -33,7 +33,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="coco123",  # 👈 Replace this
+        password="abcde",  
         database="MovieTVAnalytics"
     )
 
